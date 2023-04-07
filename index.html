@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Photography Rater</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h3>Photography Rater</h3>
+  </header>
+
+
+  <!-- photos Menu -->
+  <div id="photos-menu">
+    <!-- photos Images Here -->
+  </div>
+
+  <!-- photos Details -->
+  <div id="photos-detail">
+    <img class="detail-image" src= "image-placeholder.jpg" >
+    <h3 class="author">Insert author Here</h3>
+  </div>
+
+  <h3>Rating:</h3>
+  <p>
+    <span id='rating-display'>Insert rating here</span> /10
+  </p>
+  <button id="delete-photos">Delete</button>
+
+  <!-- New photography Form -->
+  <form id="new-photos">
+    <h4>Add New photos</h4>
+    <label for="author">author: </label>
+    <input type="text" name="author" id="new-author" />
+    <label for="image">Image: </label>
+    <input type="text" name="image" id="new-image" />
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="new-rating" />
+    <input type="submit" value="Create" />
+  </form>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
